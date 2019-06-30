@@ -1,0 +1,61 @@
+body {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    background-color: rgb(240, 240, 240);
+}
+
+a {
+    color: #4582ec;
+    text-decoration: none;
+    transition: color .25s ease;
+}
+
+p {
+    line-height: 1.625rem;
+    margin-bottom: 1.21875rem;
+}
+
+.bio-words {
+    margin: auto;
+}
+
+.bio-title {
+    color: #4582ec;
+    font-size: 1.9rem;
+    font-weight: 600;
+    padding-bottom: 0.4em;
+}
+
+.profile-img {
+
+}
+
+.bio-content {
+    display: flex;
+    min-width: 300px;
+    text-align: center;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .bio-content {
+    display: block;
+  }
+}
+
+.contact-item-image {
+    margin: 5px;
+}
+
+.profile-picture {
+    max-width: 250px;
+    border-radius: 50%;
+}
+
+.main-content {
+    max-width: 600px;
+    margin: auto;
+}
+
+.paragraph-content {
+}
