@@ -4,21 +4,58 @@ head {
 
 body {
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
-    background-color: rgba(200, 200, 200, 0.3);
+    margin: 0;
 }
 
 div {
     display: block;
 }
 
-
 .bio-content {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding: 20px 100px 20px 100px;
+  background-color: rgba(210, 210, 210, 0.3);
+}
+
+.bio-title {
+  color: #4582ec;
+  font-size: 1.9rem;
+  font-weight: 600;
+  padding-bottom: 0.4em;
+}
+
+.bio-intro{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  right: 60px;
 }
 
 #profile{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
   width: 50%;
   height: auto;
+  position: relative;
+  left: 30px;
+}
+
+.contact-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px 10px 10px 10px;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 600px;
+  margin: auto;
 }
